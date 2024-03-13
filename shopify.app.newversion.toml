@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "034ddadbb639851c15cb626a1beaac4a"
+name = "newversion"
+application_url = "https://focal-junk-commitments-employers.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-f83a59a1.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_inventory,read_products,write_customers,write_discounts,write_products"
+
+[auth]
+redirect_urls = [
+  "https://focal-junk-commitments-employers.trycloudflare.com/auth/callback",
+  "https://focal-junk-commitments-employers.trycloudflare.com/auth/shopify/callback",
+  "https://focal-junk-commitments-employers.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
