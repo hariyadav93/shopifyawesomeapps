@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "productss.jsx"
+to = "additional.jsx"
 status = 200
